@@ -19,7 +19,6 @@ Skip_node* skip_node_constructor(DATA_TYPE* data)
 *******************************************************************************/
 void skip_node_destructor(Skip_node* node)
 {
-    ///free(node->data); bug, this is causing crash
     free(node);
 }
 
